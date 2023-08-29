@@ -1,0 +1,392 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin: 30px 30px 0px 35px;
+  font-family: sans-serif;
+}
+nav .logo img {
+  height: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  margin-top: -30px;
+  background-color: #d183e8;
+  margin-left: -35px;
+}
+.logo {
+  width: 22%;
+  text-align: center;
+}
+.logo h1 {
+  font-size: 2em;
+  color: #7b1fa2;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.ancour {
+  width: 65%;
+}
+.ancour ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.ancour ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.ancour ul li a:hover {
+  border-bottom: solid 2px rgb(103, 165, 219);
+  color: #7b1fa2;
+}
+.ancour ul li {
+  padding: 5px;
+}
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 96px;
+}
+.intro {
+  width: 41%;
+}
+.name {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.name #info {
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  word-spacing: 0.8em;
+  opacity: 0.6;
+  font-family: sans-serif;
+  text-wrap: balance;
+}
+.social {
+  margin-top: 30px;
+}
+.social i {
+  margin-right: 12px;
+  padding: 5px;
+  border-radius: 50%;
+}
+.social a i:hover {
+  box-shadow: 0px 0px 9px 0px;
+  padding: 5px;
+}
+.fa-google {
+  background-color: #ffde1a;
+  color: #2b9f31;
+  border-radius: 50%;
+}
+.image {
+  max-width: 59%;
+  max-height: 84vh;
+  text-align: center;
+  align-self: center;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.name h1 .fa-hand {
+  rotate: 330deg;
+}
+.name h1 {
+  font-family: sans-serif;
+  line-height: 2.5em;
+  font-weight: 500;
+  font-size: 52px;
+}
+.buttons {
+  margin-top: 70px;
+}
+.buttons a {
+  margin: 10px;
+  padding: 10px;
+  margin-right: 20px;
+  background-color: rgb(84, 8, 151);
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;
+  color: white;
+}
+.buttons a:hover {
+  background-color: rgb(65, 103, 215);
+  color: black;
+}
+.section2 {
+  margin-bottom: 120px;
+}
+.image1 {
+  width: 59%;
+  height: 84vh;
+  text-align: center;
+  background-color: #ae64e2;
+}
+.skills {
+  width: 41%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.skills #p1 {
+  font-size: 2.9em;
+  font-family: sans-serif;
+  line-height: 2em;
+}
+.skills #p2 {
+  font-size: 1em;
+  font-family: sans-serif;
+  opacity: 0.6;
+}
+.lag {
+  text-align: center;
+  width: 100%;
+}
+.lag img {
+  width: 75%;
+  mix-blend-mode: luminosity;
+}
+.abilities ul {
+  list-style: none;
+}
+.abilities ul li {
+  font-size: 18px;
+  line-height: 2.2rem;
+  font-family: sans-serif;
+  opacity: 0.6;
+}
+.section3 {
+  margin-bottom: 150px;
+  height: 100vh;
+}
+.image1 img {
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: luminosity;
+}
+.renges {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 41%;
+}
+.renges div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.renges input {
+  width: 85%;
+  height: 50px;
+}
+.renges label {
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.image2 div img {
+  border-radius: 50%;
+}
+.section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+.certificates {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5%;
+  height: 70%;
+}
+.certificates .proof {
+  box-shadow: 0px 0px 13px 3px;
+  border-radius: 10px;
+}
+.certificates .proof img {
+  width: 68%;
+  height: 50%;
+  border-radius: 45px;
+}
+.proof div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.proof div a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #2252ff;
+  font-weight: bold;
+}
+.proof div label,
+p {
+  opacity: 0.6;
+}
+body a:hover {
+  color: #7b1fa2;
+}
+.section5 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
+}
+
+.section5 .imgs2 {
+  display: flex;
+  margin: 20px;
+  text-align: center;
+  justify-content: flex-start;
+  width: 100%;
+  box-shadow: 0px 0px 15px 4px;
+}
+.imgs2 div img {
+  width: 100px;
+  margin: 20px;
+}
+.imgs2 div img:hover {
+  box-shadow: 0px 0px 11px 6px #00b0ff;
+  border-radius: 54%;
+}
+.section5 .headings,
+.section6 .headings {
+  margin: 40px 10px;
+}
+.cont p {
+  font-size: 18px;
+  opacity: 0.7;
+  margin: 30px;
+}
+.cont div a {
+  text-decoration: none;
+  background-color: #41b6de;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
+.cont div a:hover {
+  background-color: #1a5e74;
+  color: white;
+}
+.imgs3 {
+  display: flex;
+  text-align: center;
+  height: 96%;
+}
+.brief p {
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  word-spacing: 0.8em;
+  opacity: 0.6;
+  font-family: sans-serif;
+  text-wrap: balance;
+}
+.brief {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.button a button {
+  text-decoration: none;
+  background-color: #41b6de;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  border: none;
+}
+.button a button:hover {
+  background-color: #1a5e74;
+  color: white;
+}
+.myphoto {
+  text-align: center;
+  width: 50%;
+  height: 100%;
+}
+.myphoto img {
+  width: 36%;
+  height: 94%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 22px 7px rgb(20, 164, 189);
+}
+.myphoto img:hover {
+  box-shadow: 0px 0px 22px 7px purple;
+}
+.section6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 55vh;
+  margin-bottom: 30px;
+}
+.section6 h1 {
+  padding-top: 20px;
+}
+.section7 {
+  background-color: antiquewhite;
+  margin: -30px;
+  margin-left: -35px;
+}
+.combine div #opp {
+  font-size: 20px;
+  margin-left: 30px;
+  padding: 20px;
+}
+.combine div ul li p {
+  font-size: 20px;
+  font-family: sans-serif;
+  opacity: 0.6;
+}
+.combine div ul li {
+  display: flex;
+  align-items: center;
+}
+.combine {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer {
+  margin: -30px;
+  background: black;
+  margin-top: 30px;
+  margin-left: -35px;
+}
+.section8 {
+  color: white;
+}
+.section8 p {
+  text-align: center;
+  font-size: 16px;
+}
+.policy {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-size: 18px;
+  opacity: 0.7;
+}
